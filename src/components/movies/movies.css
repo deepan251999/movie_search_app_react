@@ -1,0 +1,22 @@
+.movies_list_item{
+    width: 200px;
+    color: #161515;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.movies_list_item:hover {
+    background: #1b1c1c;
+    color: #fff;
+}
+
+.movies_image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movies_list_item h6{
+    font-size: 20px;
+    line-height: 1.6;
+}

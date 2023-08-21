@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Belanosima&family=Caprasimo&family=Dancing+Script:wght@500&family=Inter:wght@300&family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Lexend&family=Lilita+One&family=Nanum+Gothic&family=Plus+Jakarta+Sans:wght@200;400;500&family=Poppins:ital,wght@0,300;0,400;0,600;1,600&family=Public+Sans&family=Roboto+Slab:wght@400;500&family=Roboto:wght@300;400&family=Rubik&family=Teko&family=Unbounded:wght@200;300;400;500&display=swap');
+
+.home_container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('https://wallpapers.com/images/hd/movie-background-4saldhgir0h87q13.jpg');
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_content{
+    width: 70%;
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.home_content h1{
+    font-size: 45px;
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+    text-align: start;
+}
+
+.home_content h1 span{
+    color: #14addd;
+}
+
+.home_content p{
+   font-size: 29px;
+}
+
+.home_content button{
+    padding: 13px 40px;
+    color: #fff;
+    background: #14addd;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.home_content button:hover{
+    background: #04c4ff;
+    transition: 1s;
+}
